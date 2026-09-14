@@ -18,6 +18,8 @@ const PROXY_DOMAINS = [
   'https://kuronime.sbs'
 ];
 
+const NOT_FOUND_IMAGE = 'https://kemii.my.id/files/2tYerH.png';
+
 app.get('/', (req, res) => {
   res.send('numpang tanya, yang jual sparepart motor siapa ya');
 });
@@ -64,7 +66,16 @@ app.use(async (req, res) => {
     }
   }
 
-  res.status(404).send('Tidak ditemukan di semua domain');
+  const fallback = await axios.get(NOT_FOUND_IMAGE, {
+    responseType: 'stream',
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    }
+  });
+
+  res.set('Content-Type', 'image/png');
+  res.set('Cache-Control', 'public, max-age=86400');
+  fallback.data.pipe(res);
 });
 
 const PORT = process.env.PORT || 3000;
