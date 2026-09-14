@@ -13,7 +13,9 @@ const PROXY_DOMAINS = [
   'https://cdn.myanimelist.net',
   `${C1}https://xyz-api.animein.net`,
   `${C1}https://animein.net`,
-  `${C1}https://api.animein.net`
+  `${C1}https://api.animein.net`,
+  `${C1}https://otakudesu.blog`,
+  'https://kuronime.sbs'
 ];
 
 app.get('/', (req, res) => {
