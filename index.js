@@ -4,7 +4,9 @@ const app = express();
 
 const PROXY_DOMAINS = [
   'https://s4.anilist.co',
-  'https://nimegami.id'
+  'https://nimegami.id',
+  'https://myanimelist.net',
+  'https://cdn.myanimelist.net'
 ];
 
 app.get('/', (req, res) => {
