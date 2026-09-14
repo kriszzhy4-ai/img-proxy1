@@ -17,7 +17,7 @@ const PROXY_DOMAINS = [
 ];
 
 app.get('/', (req, res) => {
-  res.send('hello world');
+  res.send('numpang tanya, yang jual sparepart motor siapa ya');
 });
 
 app.use(async (req, res) => {
