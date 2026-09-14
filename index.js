@@ -2,6 +2,10 @@ const express = require('express');
 const axios = require('axios');
 const app = express();
 
+const C1 = 'https://cf.tiyanstores.workers.dev/?url='
+const C2 = 'https://cf.elainaa.workers.dev/'
+const C3 = 'https://cors.siputzx.my.id/'
+
 const PROXY_DOMAINS = [
   'https://s4.anilist.co',
   'https://nimegami.id',
