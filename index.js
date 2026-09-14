@@ -10,7 +10,10 @@ const PROXY_DOMAINS = [
   'https://s4.anilist.co',
   'https://nimegami.id',
   'https://myanimelist.net',
-  'https://cdn.myanimelist.net'
+  'https://cdn.myanimelist.net',
+  `${C1}https://xyz-api.animein.net`,
+  `${C1}https://animein.net`,
+  `${C1}https://api.animein.net`
 ];
 
 app.get('/', (req, res) => {
