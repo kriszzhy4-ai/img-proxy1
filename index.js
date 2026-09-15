@@ -10,6 +10,7 @@ const PROXY_DOMAINS = [
   'https://s4.anilist.co',
   'https://nimegami.id',
   'https://myanimelist.net',
+  'https://westmanhwa.net',
   'https://cdn.myanimelist.net',
   `${C1}https://xyz-api.animein.net`,
   `${C1}https://animein.net`,
@@ -35,7 +36,7 @@ app.use(async (req, res) => {
 
       const response = await axios.get(targetUrl, {
         responseType: 'stream',
-        timeout: 10000,
+        timeout: 5000,
         headers: {
           'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
           'Referer': domain,
