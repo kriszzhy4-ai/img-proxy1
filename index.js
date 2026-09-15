@@ -12,9 +12,9 @@ const PROXY_DOMAINS = [
   'https://nimegami.id',
   'https://myanimelist.net',
   'https://cdn.myanimelist.net',
-  `${C1}https://xyz-api.animein.net`,
-  `${C1}https://animein.net`,
-  `${C1}https://api.animein.net`,
+  `${C4}img?url=https://xyz-api.animein.net`,
+  `${C4}img?url=https://animein.net`,
+  `${C4}img?url=https://api.animein.net`,
   'https://kuronime.sbs',
   `${C4}img?url=https://otakudesu.blog`
 ];
