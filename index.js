@@ -15,9 +15,8 @@ const PROXY_DOMAINS = [
   `${C1}https://xyz-api.animein.net`,
   `${C1}https://animein.net`,
   `${C1}https://api.animein.net`,
-  `${C4}img?url=https://otakudesu.blog`,
-  'https://westmanhwa.net',
-  'https://kuronime.sbs'
+  'https://kuronime.sbs',
+  `${C4}img?url=https://otakudesu.blog`
 ];
 
 const NOT_FOUND_IMAGE = 'https://kemii.my.id/files/2tYerH.png';
