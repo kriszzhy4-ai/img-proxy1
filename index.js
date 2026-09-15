@@ -11,12 +11,12 @@ const PROXY_DOMAINS = [
   'https://s4.anilist.co',
   'https://nimegami.id',
   'https://myanimelist.net',
-  'https://westmanhwa.net',
   'https://cdn.myanimelist.net',
   `${C1}https://xyz-api.animein.net`,
   `${C1}https://animein.net`,
   `${C1}https://api.animein.net`,
   `${C4}img?url=https://otakudesu.blog`,
+  'https://westmanhwa.net',
   'https://kuronime.sbs'
 ];
 
