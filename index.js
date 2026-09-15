@@ -5,7 +5,7 @@ const app = express();
 const C1 = 'https://cf.tiyanstores.workers.dev/?url='
 const C2 = 'https://cf.elainaa.workers.dev/'
 const C3 = 'https://cors.siputzx.my.id/'
-const C4 = 'https://px.zeroplay.my.id/'
+const C4 = 'https://cf.elainaa.workers.dev/https://px.zeroplay.my.id/'
 
 const PROXY_DOMAINS = [
   'https://s4.anilist.co',
