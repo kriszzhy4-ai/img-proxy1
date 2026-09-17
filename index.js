@@ -15,6 +15,7 @@ const PROXY_DOMAINS = [
   `${C4}img?url=https://xyz-api.animein.net`,
   `${C4}img?url=https://animein.net`,
   `${C4}img?url=https://api.animein.net`,
+  `${C4}img?url=https://assets.shngm.id`,
   'https://kuronime.sbs',
   `${C4}img?url=https://otakudesu.blog`
 ];
