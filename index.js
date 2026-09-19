@@ -13,6 +13,7 @@ const PROXY_DOMAINS = [
   'https://myanimelist.net',
   'https://cdn.myanimelist.net',
   `${C4}img?url=https://xyz-api.animein.net`,
+  `${C4}img?url=https://assets.animekita.org`,
   `${C4}img?url=https://animein.net`,
   `${C4}img?url=https://api.animein.net`,
   `${C4}img?url=https://assets.shngm.id`,
