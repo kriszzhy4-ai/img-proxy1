@@ -9,7 +9,7 @@ const C4 = `https://px.zeroplay.my.id/`
 
 const PROXY_DOMAINS = [
   'https://s4.anilist.co',
-  'https://z1.anichin.blog',
+  `${C4}img?url=https://z1.anichin.blog`,
   'https://nimegami.id',
   'https://myanimelist.net',
   'https://cdn.myanimelist.net',
