@@ -5,7 +5,7 @@ const app = express();
 const C1 = 'https://cf.tiyanstores.workers.dev/?url='
 const C2 = 'https://cf.elainaa.workers.dev/'
 const C3 = 'https://cors.siputzx.my.id/'
-const C4 = `https://prohibited-occurrence-sacramento-ira.trycloudflare.com/`
+const C4 = `http://kod.publicvm.com:2486/`
 
 const PROXY_DOMAINS = [
   'https://s4.anilist.co',
