@@ -5,7 +5,7 @@ const app = express();
 const C1 = 'https://cf.tiyanstores.workers.dev/?url='
 const C2 = 'https://cf.elainaa.workers.dev/'
 const C3 = 'https://cors.siputzx.my.id/'
-const C4 = `https://px.zeroplay.my.id/`
+const C4 = `http://kod.publicvm.com:2486/`
 
 const PROXY_DOMAINS = [
   'https://s4.anilist.co',
@@ -13,10 +13,10 @@ const PROXY_DOMAINS = [
   'https://nimegami.id',
   'https://myanimelist.net',
   'https://cdn.myanimelist.net',
-  `${C4}api/proxy?url=https://assets.animekita.org`,
-  `${C4}api/proxy?url=https://xyz-api.animein.net`,
-  `${C4}api/proxy?url=https://animein.net`,
-  `${C4}api/proxy?url=https://api.animein.net`,
+  `${C4}proxy?url=https://assets.animekita.org`,
+  `${C4}proxy?url=https://xyz-api.animein.net`,
+  `${C4}proxy?url=https://animein.net`,
+  `${C4}proxy?url=https://api.animein.net`,
   `${C4}api/proxy?url=https://assets.shngm.id`,
   'https://kuronime.sbs',
   `${C4}img?url=https://otakudesu.blog`
